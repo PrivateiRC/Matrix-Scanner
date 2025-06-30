@@ -1,0 +1,10 @@
+requests
+beautifulsoup4
+dnspython
+geoip2
+fpdf
+Flask
+tabulate
+tqdm
+PySocks
+python-whois
