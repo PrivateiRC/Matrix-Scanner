@@ -38,7 +38,7 @@ Matrix Scanner | iRC-PT v9.0 Pro
 git clone https://github.com/PrivateiRC/Matrix-Scanner/
 cd Matrix-Scanner
 pip install -r requirements.txt
-
+```
 > ℹ️ Optional: For GeoIP features, download and place GeoLite2-City.mmdb in the root folder:
 https://dev.maxmind.com/geoip/geolite2/
 
@@ -47,16 +47,16 @@ https://dev.maxmind.com/geoip/geolite2/
 
 ---
 
-🧪 Quick Start
+**🧪 Quick Start**
 
-CLI
-
+**CLI**
+```bash
 python3 main2.py scan example.com full --threads 300 --output results.json
-
-API
-
+```
+**API**
+```bash
 python3 main2.py --api
-
+```
 Then send POST requests to:
 
 POST http://localhost:5000/api/scan
@@ -104,7 +104,7 @@ help	View available commands
 
 ---
 
-📬 Contact
+**📬 Contact**
 
 For technical support or feature requests:
 📨 Telegram: @Iranian_Cybers
@@ -112,7 +112,7 @@ For technical support or feature requests:
 
 ---
 
-📜 License
+**📜 License**
 
 Licensed under the MIT License.
 Use only in legal, ethical, and authorized environments.
@@ -120,7 +120,7 @@ Use only in legal, ethical, and authorized environments.
 
 ---
 
-⭐️ Support the Project
+**⭐️ Support the Project**
 
 If you find this project useful, please consider giving it a ⭐ on GitHub!
 
